@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+@use './_minireset.min.css';
+html {
+  font-size: 18px;
+  font-family: 'Outfit', sans-serif;
+}
+
+body {
+  background: #0d192b;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.card {
+  background: #14253d;
+  border-radius: 20px;
+  width: 25em;
+  height: 42em;
+  margin: 3em auto;
+}
+
+.card .container {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  padding: .5em 0 0 0;
+  width: 100%;
+}
+
+.card .container .preview {
+  border-radius: 10px;
+  display: block;
+  position: relative;
+  margin: 1rem auto;
+  max-width: 85%;
+  max-height: 50%;
+}
+
+.card .container h1 {
+  color: white;
+  margin-left: 1em;
+}
+
+.card .container p {
+  color: #8bacda;
+  font-size: 1.2rem;
+  line-height: 1.7;
+  margin-left: 1.7em;
+  margin-top: 0;
+}
+
+.card .container .details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 5px;
+  width: 100%;
+}
+
+.card .container .details .eth {
+  color: cyan;
+  font-weight: bold;
+  margin-left: .8em;
+  vertical-align: top;
+  width: 100%;
+}
+
+.card .container .details .eth img {
+  height: 1.5rem;
+  width: 1.5rem;
+  margin-right: .3em;
+}
+
+.card .container .details .days {
+  color: #8bacda;
+  margin-left: 8em;
+  width: 100%;
+  top: 10px;
+}
+
+.card .container .details .days img {
+  height: 1.2rem;
+  width: 1.2rem;
+  margin-right: .5em;
+  vertical-align: middle;
+}
+
+.card .container hr {
+  border: none;
+  border-bottom: 1px solid #2f415b;
+  clear: both;
+  display: block;
+  margin-top: 1em;
+  width: 85%;
+}
+
+.card .container .credit--container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.card .container .credit--container .avatar {
+  width: 3em;
+  height: 3em;
+  border: white solid 2px;
+  border-radius: 290192px;
+  margin: .5em 0 .5em 2em;
+}
+
+.card .container .credit--container .credit {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 1em 0 0 1em;
+}
+
+.card .container .credit--container .credit .name {
+  color: white;
+}
+/*# sourceMappingURL=main.css.map */
